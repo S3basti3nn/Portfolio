@@ -33,22 +33,32 @@ a {
     border-top: 3px solid #b24fe2;
   }
 
+  li {
+    color: white;
+    font-family: 'Open Sans', sans-serif; 
+  }
+
   p {
     color: white;
-    font-family: "Nunito", sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
   h2 {
     color: white;
-    font-family: "Nunito", sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
   }
 
   h3 {
     color: white;
-    font-family: "Nunito", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     color: #b24fe2;
     font-weight: bold;
+  }
+
+  hr {
+      border-top: 1px solid white;
   }
 
 #mainNavbar {
@@ -78,15 +88,50 @@ a {
     font-size: 4rem;
 }
 
+#AboutSlate {
+    background-color: #30363d;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 2em;
+    line-height: 2;
+}
+
+#DesignSlate {
+    background-color: #b24fe2;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 2em;
+    line-height: 2;
+}
+
+.btn {
+    text-align: left;
+}
+
+.accordion > .card  {
+    background-color: #30363d;
+};
+
+.carousel-item {
+   width: 50%;
+   height: 10%;
+   margin: auto;
+}
+
 .social-icon {
     color: #b24fe2;
-    margin-left: 0.4em;
+    margin-left: 0.1em;
 }
 
 .navbar.scrolled {
-    background: rgb(0, 0, 0);
+    background: #30363d;
     transition: background 500ms;
 }
+
 
 @media (max-width: 1200px) {
     #headingGroup h1 {
